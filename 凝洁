@@ -1,3 +1,4 @@
+20220613
 #include <stadio.h>
 int main()
 {
@@ -5,6 +6,7 @@ printf("sorry\n");
 return 0;
 }
 
+20220614
 #include<stdio.h>
 int main()
 {
@@ -17,6 +19,7 @@ int main()
 	printf("% d\n" , sum);
 	return 0;
 
+20220615
 #include<stdio.h>
 int main()
 {
@@ -31,5 +34,22 @@ int main()
 	{
 		printf("你真是个小呆瓜");
 	}
+	return 0;
+}
+
+20220616#include<stdio.h>
+int main()
+{
+	printf("含泪敲代码\n");
+	int line = 0;
+	while (line < 10000)
+	{
+		line++;
+		printf("还得继续敲啊%d\n",line);
+	}
+	if(line >= 10000)
+	{
+	printf("你是真滴c\n");
+}
 	return 0;
 }
