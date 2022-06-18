@@ -61,3 +61,13 @@ int main()
 	extern int g_val;
 	printf("g_val=%d\n", g_val);
 	return 0;
+
+20220618
+#include<stdio.h>
+#define ADD(x,y)((x)+(y))
+int main()
+{
+	int sum = ADD(2, 3);
+	printf("%d", sum);
+	return 0;
+}
