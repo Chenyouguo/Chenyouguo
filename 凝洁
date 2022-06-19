@@ -71,3 +71,13 @@ int main()
 	printf("%d", sum);
 	return 0;
 }
+
+20220619
+#include<stdio.h>
+//int main()
+//{
+//	int num = 10;
+//	&num;
+//	printf("%p\n", &num);
+//	return 0;
+//}
