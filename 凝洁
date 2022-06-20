@@ -81,3 +81,14 @@ int main()
 //	printf("%p\n", &num);
 //	return 0;
 //}
+
+20220620
+#include<stdio.h>
+int main()
+{
+	int num = 10;
+	int* p = &num;
+	*p = 20;
+	printf("%d", *p);
+	return 0;
+}
