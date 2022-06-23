@@ -108,3 +108,14 @@ int main()
 	printf("name=%s age=%d sex=%s id=%s\n", s.name, s.age, s.sex, s.id);
 	return 0;
 }
+
+20220623
+#include<stdio.h>
+int main()
+{
+	int age = 0;
+	scanf("%d", &age);
+	if (age < 18)
+		printf("小屁孩\n");
+	return 0;
+}
